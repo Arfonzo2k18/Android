@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">GameBox</string>
+    <string name="texto_ayuda">Bienvenido a la actividad de ayuda de GameBox.
+    Aquí encontrarás toda la información necesaria para aprender a manejarte por la aplicación.
+    En la actividad de inicio tenemos tres botones, el que has pulsado (Ayuda), el de listas y el de añadir.
+    Cada uno tiene una función diferente.
+    En el botón de listas encontrarás los juegos que tenemos disponibles junto una foto, el nombre del juego y
+    el nombre de la compañía que lo desarrolló.
+    En el botón de añadir tendremos la opción para añadir juegos a nuestra lista.</string>
 </resources>
