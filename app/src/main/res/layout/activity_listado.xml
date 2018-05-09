@@ -7,9 +7,17 @@
     tools:context=".Listado"
     android:background="@drawable/fondo">
 
-    <ListView
-        android:id="@+id/lstJuegos"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:textFilterEnabled="true" />
+        android:background="#66FFFFFF"
+        android:orientation="vertical">
+
+        <ListView
+            android:id="@+id/lstJuegos"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textFilterEnabled="true" />
+    </LinearLayout>
+
 </android.support.constraint.ConstraintLayout>

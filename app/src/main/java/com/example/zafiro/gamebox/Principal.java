@@ -37,5 +37,9 @@ public class Principal extends AppCompatActivity implements View.OnClickListener
             Intent Ayuda = new Intent(getApplicationContext(),Ayuda.class);
             startActivity(Ayuda);
         }
+        else if(v.getId()==findViewById(R.id.imbLista).getId()) {
+            Intent Listado = new Intent(getApplicationContext(),Listado.class);
+            startActivity(Listado);
+        }
     }
 }
